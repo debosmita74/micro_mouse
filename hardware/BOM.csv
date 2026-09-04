@@ -1,0 +1,24 @@
+Component,Specification,Quantity,Package,Notes
+STM32F103C8T6,ARM Cortex-M3 72MHz Blue Pill,1,DIP/Module,Main microcontroller
+TB6612FNG,Dual H-Bridge Motor Driver,1,Breakout/SSOP-24,Motor driver
+N20 Gear Motor,6V 300RPM with Quadrature Encoder,2,Micro,Drive motors
+IR LED,940nm 20mA,4,3mm/5mm,Wall sensor emitters
+Phototransistor,940nm NPN,4,3mm/5mm,Wall sensor receivers
+2N7000,N-Channel MOSFET 60V 200mA,4,TO-92,IR LED switching
+MPU6050,6-Axis IMU (GY-521 Breakout),1,Breakout,Gyroscope for turns
+AMS1117-3.3,3.3V LDO Voltage Regulator,1,SOT-223,Logic power supply
+1S LiPo Battery,3.7V 300-500mAh,1,-,Main power source
+Rubber Wheels,25mm diameter,2,-,Drive wheels
+Ball Caster,Small metal ball caster,1,-,Front support
+Resistor 100R,100 Ohm 1/4W,4,0805/Through-hole,IR LED current limiting
+Resistor 10K,10K Ohm 1/4W,6,0805/Through-hole,Pull-ups and voltage divider
+Resistor 4.7K,4.7K Ohm 1/4W,2,0805/Through-hole,I2C pull-ups (if needed)
+Capacitor 100nF,Ceramic 100nF 50V,8,0805/Through-hole,IC decoupling
+Capacitor 10uF,Electrolytic 10uF 16V,4,Through-hole,Bulk filtering
+Capacitor 100uF,Electrolytic 100uF 16V,1,Through-hole,Motor driver bulk cap
+Tactile Switch,6mm momentary push button,1,Through-hole,User start button
+LED 3mm,Green or Blue 3mm LED,1,3mm,Status indicator
+Resistor 330R,330 Ohm 1/4W,1,0805/Through-hole,Status LED current limiting
+Slide Switch,SPDT mini slide switch,1,Through-hole,Power switch
+Pin Headers,2.54mm male headers,1,Strip,Connections
+PCB/Perfboard,Custom PCB or prototype board,1,-,Main board
