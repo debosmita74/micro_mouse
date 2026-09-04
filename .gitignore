@@ -1,0 +1,69 @@
+# ==================== Build Artifacts ====================
+build/
+out/
+bin/
+obj/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+
+# ==================== IDE & Editor Files ====================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# STM32CubeIDE
+Debug/
+Release/
+
+# Keil
+*.uvoptx
+*.uvprojx
+*.uvguix.*
+Listings/
+Objects/
+
+# ==================== OS Files ====================
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+
+# ==================== Python ====================
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# ==================== Logs & Temp ====================
+*.log
+*.tmp
+*.bak
+*.orig
+
+# ==================== Secrets ====================
+*.pem
+*.key
+secrets.*
+.env.local
